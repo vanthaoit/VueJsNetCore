@@ -9,11 +9,11 @@
 
 <script>
 export default {
-  name: "News",
-  data() {
-    return { msg: "Welcome to news of ThaoTranVan vuejs" };
+  name: 'News',
+  data () {
+    return { msg: 'Welcome to news of ThaoTranVan vuejs' }
   }
-};
+}
 </script>
 
 <style scoped>
@@ -26,4 +26,3 @@ a {
   color: #42b983;
 }
 </style>
-
