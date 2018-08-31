@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import AppComponent from '@/components/App.Component'
 import News from '../components/News.vue'
 import Contact from '../components/Contact.vue'
 
@@ -10,8 +10,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'AppComponent',
+      component: AppComponent
     },
     {
       path: '/news',
